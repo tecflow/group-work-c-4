@@ -51,7 +51,7 @@ main {
 }
 .large-seqtion-card img {
     border-radius: 20px;
-    margin: 23.34px  ;
+    margin: 0 0 23.34px  ;
 }
 .card-content  {
     display: flex;
