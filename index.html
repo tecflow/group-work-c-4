@@ -7,49 +7,62 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&family=Ubuntu:wght@300;700&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="logo">LUX <span class="highlight">VENTUS</span></div>
-        <div class="right-container">
-          <nav class="nav-links">
-            <a href="#fashion">Fashion</a>
-            <a href="#lifestyle">Lifestyle</a>
-            <a href="#spiritual">Spiritual</a>
-            <a href="#mental-health">Mental Health</a>
-          </nav>
-          <button class="contact-btn">Contact Us</button>
-          <div class="search-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <circle cx="10.5" cy="10.5" r="7.5" stroke="black" stroke-width="2" fill="none"/>
-              <line x1="16" y1="16" x2="22" y2="22" stroke="black" stroke-width="2"/>
-            </svg>
-          </div>
+      <a href="index.html">
+        <div class="logo">
+            <img src="assets/logo.png" alt="LUX VENTUS Logo">
         </div>
-      </header>
-      
-
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="logo">LUX <span class="highlight">VENTUS</span></div>
-          <div class="social-section">
-            <span class="social-text">Let’s Hang Out</span>
-            <div class="social-icons">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#"><i class="fab fa-youtube"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
+    </a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <!-- ბურგერი -->
+        <label for="menu-toggle" class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <!-- მენიუს კონტეინერი -->
+        <div class="right-container">
+            <nav class="nav-links">
+                <a href="#fashion">Fashion</a>
+                <a href="#lifestyle">Lifestyle</a>
+                <a href="#spiritual">Spiritual</a>
+                <a href="#mental-health">Mental Health</a>
+            </nav>
+            <button class="contact-btn">Contact Us</button>
+            <div class="search-icon">
+                <svg xmlns="#" width="24" height="24" viewBox="0 0 24 24">
+                  <circle cx="10.5" cy="10.5" r="7.5" stroke="black" stroke-width="2" fill="none"/>
+                  <line x1="16" y1="16" x2="22" y2="22" stroke="black" stroke-width="2"/>
+                </svg>
             </div>
-          </div>
+        </div>
+    </header>
+    <!-- ფუტერი -->
+    <footer class="footer">
+        <div class="footer-content">
+          <a href="index.html">
+            <div class="logo">
+                <img src="assets/logo.png" alt="LUX VENTUS Logo">
+            </div>
+        </a>
+            <div class="social-section">
+                <span class="social-text">Let’s Hang Out</span>
+                <div class="social-icons">
+                    <img src="assets/facebook.png" alt="Facebook" />
+                    <img src="assets/twitter.png" alt="Twitter" />
+                    <img src="assets/linkedin.png" alt="LinkedIn" />
+                    <img src="assets/youtube.png" alt="YouTube" />
+                    <img src="assets/instagram.png" alt="Instagram" />
+                </div>
+            </div>
         </div>
         <hr>
         <div class="footer-bottom">
-          <p>© 2023 - Lux Ventus by Zine.E.Falouti</p>
+            <p>© 2023 - Lux Ventus by Zine.E.Falouti</p>
         </div>
-      </footer>          
+    </footer>
 </body>
 </html>
